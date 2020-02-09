@@ -1,0 +1,111 @@
+.todo-add{
+
+    background-color:  #4d94ff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding:20px 100px 20px 70px;
+    color: white;
+    margin-bottom: 20px;
+    
+
+}
+input[type=text]{
+    width: 100%;
+   
+    border-radius: 6px;
+    
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #4d94ff;
+    font-size: 20px;
+}
+
+::placeholder {
+    color:#4d94ff;
+    opacity: 1; 
+  }
+  
+.btn{
+    width: 7%;
+    height: 40px;
+    background-color:transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.title h1{
+    position: relative;
+
+    text-align: center;
+
+    color:#37474f;
+    margin-top: 80px;
+    padding-bottom: 50px;
+    
+
+}
+
+.title h1:after {
+    content: "";
+    position: absolute;
+    left: 45%;
+
+    bottom: 0;
+    width: 150px;
+    border-bottom: 2px solid #e0e0d1;
+  }
+.listeItem{
+    list-style: none;
+}
+.btn-complete {
+    width: 7%;
+    height: 40px;
+    background-color:white;
+    color: #37474f;
+    border: 1px solid #37474f;
+    
+    padding: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.btn-delete {
+    width: 7%;
+    height: 40px;
+    background-color:white;
+    color: #37474f;
+    border: 1px solid #37474f;
+    
+    padding: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.item{
+    color: #37474f;
+    font-size: 25px;
+   
+}
+
+.pied-page{
+    background-color:#eaeae1 ;
+    border-top:1px solid #c0c0a5;
+    margin-top: 50px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.pied-page span{
+
+    margin-left: 37%;
+
+    color:#c0c0a5;
+    font-size: 25px;
+}
+
